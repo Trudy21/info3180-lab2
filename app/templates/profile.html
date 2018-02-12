@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block main %}
+
+<div class="tops">
+
+    <img class="container" src="{{ url_for('static', filename='flask.jpg') }}"/>
+
+  <div class="colour">
+    <h1> {{ name }} </h1>
+    <h6>@Trudymac21 </h6>
+    <h5> Kingston, Jamaica</h5>
+    
+    <h4>Joined {{ date}}</h4>  
+    </div>
+    
+
+</div>
+
+<div class="bottom">
+    <p> I am an adventurous scorpio who enjoys coding though it is nerve racking. 
+    My favourite colour is green and I enjoy playing board games, and sports as
+    well as liming. In the future, if God's willing I would like to positively imapct the world. </p>
+    <ul1 style="list-style-type:none">
+  <li><strong>80</strong></li>
+  <li>Posts</li>
+</ul1>
+  <ul1 style="list-style-type:none">
+  <li><strong>800</strong></li>
+  <li>Following</li></li>
+</ul1>
+ <ul1 style="list-style-type:none">
+  <li><strong>50.6K</strong></li>
+  <li>Followers</li>
+</ul1>
+
+  <input class="button" type="button" onclick="Follow()" value="Follow">
+</div>
+
+
+{% endblock %}

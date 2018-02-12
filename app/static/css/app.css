@@ -1,3 +1,67 @@
 body {
     padding-top: 5rem;
+    
 }
+.container {
+  
+    
+    border-radius: 50%;
+    
+}
+
+.colour
+{
+color:#D0D0D0;
+position: relative;
+bottom: 160px;
+}
+
+.tops
+{
+ height:120px;
+  padding: 20%;
+  background-color: #4CAF50;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  text-align: center;
+  margin-left: 13rem;
+  width:60%;
+  
+}
+
+.bottom
+{
+ margin-left: 13rem;
+  width: 60%;
+  padding: 8%;
+  border: 2px solid black;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  text-align: center;
+  font-family: cursive ;
+}
+  p{text-align: left;
+      
+  }
+  
+
+.button {
+    background-color: 	#00FF00; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: 40%;
+    margin-top: 3rem;
+}
+ul1 { display: inline-block; 
+float:left;
+ width:30.9%;
+ margin-top: 2rem;
+}
+
