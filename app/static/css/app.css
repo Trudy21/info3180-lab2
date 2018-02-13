@@ -2,11 +2,15 @@ body {
     padding-top: 5rem;
     
 }
-.container {
-  
+.imgine {
+    width: 22%;
+    border-radius: 100%;
+    position:absolute;
+    top: 12%;
+    right:40%;
     
-    border-radius: 50%;
-    
+    margin-top: 2.5rem;
+   
 }
 
 .colour
@@ -14,6 +18,7 @@ body {
 color:#D0D0D0;
 position: relative;
 bottom: 160px;
+margin-top: 65%
 }
 
 .tops
